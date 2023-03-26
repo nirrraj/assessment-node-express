@@ -41,6 +41,7 @@ async function getUsers() {
   const matt = await $.getJSON('https://api.github.com/users/mmmaaatttttt');
 
   return [elie, matt, joel];
-}```
+}
+```
 
-Structure-wise, these requests can be chained so that they don't need to be listed with an "await" on each line. Naming-wise, the values of the variables are Promise objects rather than the data itself about each user -- naming and returning them in this way may not be the most readable, intuitive way for developers to handle these requests.
+Structure-wise, these requests can be chained so that they don't need to be listed with an `await` on each line. Naming-wise, the values of the variables are Promise objects rather than the data itself about each user -- naming and returning them in this way may not be the most readable, intuitive way for developers to handle these requests.
