@@ -26,7 +26,7 @@ In the error-first callback pattern, the first argument passed to the callback f
 
 - What is middleware?
 
-Middleware is code that runs in the middle of the request-response cycle. It handles intermediate steps which may include things like validating inputs, translating certain processes for backend work, and routing errors of various types.
+Middleware is code that runs in the middle of the request-response cycle. It handles intermediate steps which may include things like validating inputs, translating data values for backend work (e.g., parsing JSON), and routing errors of various types.
 
 - What does the `next` function do?
 
